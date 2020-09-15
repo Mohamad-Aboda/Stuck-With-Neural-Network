@@ -1,4 +1,4 @@
-import mnist_loader()
+import mnist_loader
 train, val, test = mnist_loader.load_data_wrapper()
 
 import network
